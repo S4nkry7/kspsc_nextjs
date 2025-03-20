@@ -16,17 +16,16 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-
-      <ComunicadosWidget 
-        title="Comunicados Oficiales" 
-        subtitle="Información importante" 
-        tagline="Mantente informado"
-        id="comunicados"
-        isDark={false} 
-        classes={{ container: "custom-class" }} 
-      />
-
-      <Card
+        <ComunicadosWidget  
+          title="Comunicados Oficiales"
+          subtitle="Información importante" 
+          tagline="Mantente informado"
+          id="comunicados"
+          isDark={false} 
+          classes={{ container: "custom-class" }} 
+          bg = ""
+        />
+        <Card
           isBlurred
           className="border-none bg-background/60 dark:bg-default-100/50"
           shadow="sm"
